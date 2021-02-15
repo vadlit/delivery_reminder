@@ -1,0 +1,13 @@
+include: package:pedantic/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+  errors:
+    MISSING_ENUM_CONSTANT_IN_SWITCH: error
+    MISSING_REQUIRED_PARAM: error
+
+linter:
+  rules:
+    omit_local_variable_types: false
