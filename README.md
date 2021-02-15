@@ -21,3 +21,8 @@ Data is stored with SQFLite
 
 # Notifications
 Via 'flutter_local_notifications'
+
+# Screenshots
+Main screen - http://prntscr.com/zktov3
+Add reminder - http://prntscr.com/zktt0r
+Alarm - http://prntscr.com/zkty5g

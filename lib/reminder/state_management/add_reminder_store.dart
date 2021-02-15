@@ -75,7 +75,8 @@ abstract class AddReminderStore extends FormStore with Store {
           headers:
               ReminderHeaders(title: _title.value, description: _description.value, trackNumber: _trackNumber.value),
           stage: Stage.delivery,
-          till: till.value /*DateTime.now().add(Duration(seconds: 10))*/);
+          till: //DateTime.now().add(Duration(seconds: 10))
+              till.value);
       try {
         await _repository.insert(reminder);
       } catch (e) {
